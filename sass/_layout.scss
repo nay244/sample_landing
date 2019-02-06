@@ -1,0 +1,12 @@
+.wrapper {
+    height: 100vh;
+    background-image: url(../img/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 3rem;
+}

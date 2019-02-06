@@ -1,0 +1,155 @@
+:root {
+  --color-black: #000;
+  --color-white: #fff;
+  --color-grey: #777; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+body {
+  font-family: 'Charm', cursive, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5;
+  min-height: 100vh; }
+
+.logo {
+  line-height: 4rem;
+  float: left;
+  margin: 1.2rem 0 0 2.2rem;
+  font-weight: 700;
+  letter-spacing: .5rem;
+  color: #fff; }
+
+.navigation {
+  margin: 1.2rem;
+  line-height: 4rem; }
+
+.nav {
+  font-size: 1.5rem;
+  list-style: none;
+  display: flex; }
+  .nav__link:link, .nav__link:visited {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1.5rem 2rem;
+    z-index: 10; }
+
+.social-media {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%); }
+
+.social {
+  list-style: none; }
+  .social__item:not(:last-child) {
+    margin-bottom: 1.5rem; }
+  .social__link:link, .social__link:visited {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 3rem;
+    z-index: 10; }
+  .social__icon {
+    width: 3.5rem;
+    height: 3.5rem; }
+
+.right-strip {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  color: #fff;
+  letter-spacing: .5rem; }
+
+.banner {
+  position: absolute;
+  text-align: center;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+  .banner__primary {
+    font-size: 5rem;
+    color: #fff;
+    font-weight: 700; }
+  .banner__sub {
+    font-size: 3.5rem;
+    letter-spacing: .5rem;
+    color: #fff;
+    font-weight: 300; }
+  .banner__button {
+    margin-top: 1.5rem;
+    border: none;
+    padding: 1.5rem 4rem;
+    background-color: #fff;
+    color: #000;
+    letter-spacing: .5rem;
+    font-weight: 400;
+    font-size: 1.4rem; }
+
+.banner-bottom {
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0; }
+
+.row {
+  text-align: center;
+  padding: 3rem;
+  background: #000;
+  border-top-right-radius: 1.5rem;
+  border-top-left-radius: 1.5rem; }
+
+.description-header {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: .5rem; }
+
+.description-text {
+  font-size: 1.6rem;
+  font-weight: 400;
+  letter-spacing: .2rem; }
+
+.overlay {
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background: #fff;
+  top: 0; }
+  .overlay h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4rem;
+    font-weight: 700;
+    letter-spacing: 1.2rem; }
+
+.wrapper {
+  height: 100vh;
+  background-image: url(../img/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 3rem; }

@@ -1,3 +1,2 @@
-# sample_landing
-Sample landing page design
-credits to codegrid
+# nay-portfolio
+Nay Portfolio Web project
